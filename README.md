@@ -5,7 +5,7 @@ Simple media packer, merges same CSS media query rules into one via PostCSS
 [![npm](https://img.shields.io/npm/v/css-mquery-packer)](https://www.npmjs.com/package/css-mquery-packer)
 [![GitHub](https://img.shields.io/github/license/n19htz/css-mquery-packer)](https://github.com/n19htz/css-mquery-packer/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/n19htz/css-mquery-packer.svg?branch=master)](https://travis-ci.org/n19htz/css-mquery-packer)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/bf67a8c3a0004d619a64eb5ba21abd28)](https://www.codacy.com/manual/n19htz/css-mquery-packer?utm_source=github.com&utm_medium=referral&utm_content=n19htz/css-mquery-packer&utm_campaign=Badge_Coverage)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bf67a8c3a0004d619a64eb5ba21abd28)](https://www.codacy.com/manual/n19htz/css-mquery-packer?utm_source=github.com&utm_medium=referral&utm_content=n19htz/css-mquery-packer&utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/2c3985601ce1436dbc26800b3642ca68)](https://www.codacy.com/manual/n19htz/css-mquery-packer?utm_source=github.com&utm_medium=referral&utm_content=n19htz/css-mquery-packer&utm_campaign=Badge_Coverage)
 [![David (path)](https://img.shields.io/david/n19htz/css-mquery-packer)](https://david-dm.org/n19htz/css-mquery-packer)
 
