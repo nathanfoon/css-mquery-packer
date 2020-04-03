@@ -1,7 +1,7 @@
 {
   "name": "css-mquery-packer",
   "description": "Simple media packer, merges same CSS media query rules into one via PostCSS",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "n19htz <4n19htz@gmail.com>",
   "bugs": {
     "url": "https://github.com/n19htz/css-mquery-packer/issues"
@@ -13,7 +13,6 @@
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
-    "codacy-coverage": "^3.4.0",
     "del": "^5.1.0",
     "env-cmd": "^10.0.1",
     "eslint": "^6.5.1",
@@ -22,7 +21,7 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-uglify": "^3.0.2",
-    "jest": "^24.9.0"
+    "jest": "^25.2.7"
   },
   "homepage": "https://github.com/n19htz/css-mquery-packer",
   "keywords": [
