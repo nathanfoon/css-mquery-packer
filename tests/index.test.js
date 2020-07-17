@@ -4,7 +4,6 @@ const postcss = require('postcss');
 const mqpacker = require('../src/index');
 
 const doNothing = postcss.plugin('do-nothing', () => () => {});
-console.log(process.env.CODACY_PROJECT_TOKEN);
 describe('Public API', () => {
   const input = `.foo {
   z-index: 0;
@@ -101,7 +100,7 @@ describe('Option: sort', () => {
 
   test('should not be the same output if processed via postcss with and without option set to true', () => {
     expect(postcss([mqpacker()]).process(input).css).not.toEqual(
-      postcss([mqpacker(opts)]).process(input).css
+      postcss([mqpacker(opts)]).process(input).css,
     );
   });
 
@@ -109,7 +108,7 @@ describe('Option: sort', () => {
     expect(
       mqpacker.pack(input, {
         sort: (c, d) => c.localeCompare(d),
-      }).css
+      }).css,
     ).toEqual(expected);
   });
 });
@@ -126,8 +125,9 @@ describe('Real CSS', () => {
     if (testCase.indexOf('sort_') === 0) {
       opts.sort = true;
     }
-    test(`file number ${index + 1} frim 'test/fixtures' should match snapshot number ${index
-      + 1} of 'test/expected'`, () => {
+    test(`file number ${index + 1} frim 'test/fixtures' should match snapshot number ${
+      index + 1
+    } of 'test/expected'`, () => {
       expect(mqpacker.pack(readInput(testCase), opts).css).toEqual(readExpected(testCase));
     });
   });

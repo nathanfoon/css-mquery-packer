@@ -16,8 +16,8 @@ module.exports = {
   },
   extends: ['eslint-config-airbnb-base'],
   rules: {
-    'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
-    // "no-console": process.env.NODE_ENV === "production" ? "error" : "off",
+    'arrow-parens': [2, 'as-needed', { requireForBlockBody: false }],
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-console': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-param-reassign': 0,
