@@ -7,7 +7,7 @@ Simple media packer, merges same CSS media query rules into one via PostCSS
 [![Build Status](https://travis-ci.org/n19htz/css-mquery-packer.svg?branch=master)](https://travis-ci.org/n19htz/css-mquery-packer)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/2c3985601ce1436dbc26800b3642ca68)](https://www.codacy.com/manual/n19htz/css-mquery-packer?utm_source=github.com&utm_medium=referral&utm_content=n19htz/css-mquery-packer&utm_campaign=Badge_Coverage)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c3985601ce1436dbc26800b3642ca68)](https://www.codacy.com/manual/n19htz/css-mquery-packer?utm_source=github.com&utm_medium=referral&utm_content=n19htz/css-mquery-packer&utm_campaign=Badge_Grade)
-[![David (path)](https://img.shields.io/david/n19htz/css-mquery-packer)](https://david-dm.org/n19htz/css-mquery-packer)
+[![Depfu](https://img.shields.io/depfu/n19htz/css-mquery-packer)](https://depfu.com/repos/github/n19htz/css-mquery-packer)
 
 ## ABOUT
 
