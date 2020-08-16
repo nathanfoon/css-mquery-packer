@@ -21,7 +21,7 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-uglify": "^3.0.2",
-    "jest": "^26.2.2",
+    "jest": "^26.4.0",
     "prettier": "^2.0.5"
   },
   "homepage": "https://github.com/n19htz/css-mquery-packer",
