@@ -11,7 +11,7 @@
     "postcss": "^7.0.32"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.0",
+    "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "del": "^5.1.0",
     "env-cmd": "^10.0.1",
