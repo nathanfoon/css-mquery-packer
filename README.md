@@ -81,7 +81,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const postcss = require('gulp-postcss');
 const postssMergeRules = require('postcss-merge-rules');
 const cssnano = require('cssnano');
-const mqpacker = requrie('css-mquery-packer');
+const mqpacker = require('css-mquery-packer');
 
 const processStyles = () => {
   const plugins = [
